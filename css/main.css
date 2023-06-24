@@ -32,7 +32,7 @@ body {
     border: 3px solid black;
 }
 
-.btn-1, .btn-2, .btn-3 {
+.btn-1, .btn-2, .btn-3{
     height: 40px;
     width: 80px;
     border: none;
@@ -40,4 +40,21 @@ body {
     border-radius: 50px;
     background-color: #fff;
     cursor: pointer;
+}
+
+.click {
+    padding: 20px;
+    height: 20px;
+    width: 150px;
+    border-radius: 50px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.hidden-content {
+    display: none;
+}
+
+.hidden-content.reveal-btn {
+    display: block;
 }

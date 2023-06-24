@@ -1,15 +1,23 @@
-console.clear();
+// console.clear();
 
-//Event Listeners
+// //Event Listeners
 
-//Syntax: element.addEventListener("click", function, 3);
+// //Syntax: element.addEventListener("click", function, 3);
 
-const buttonTwo = document.querySelector('.btn-2');
+// const buttonTwo = document.querySelector('.btn-2');
 
-function alertBtn() {
-    alert('Hello 2');
-}
+// function alertBtn() {
+//     alert('Hello 2');
+// }
 
-buttonTwo.addEventListener("click", alertBtn);
+// buttonTwo.addEventListener("click", alertBtn);
 
-//Mouseover
+// //Mouseover
+
+// const boxBg = document.querySelector('.box-3');
+
+// function changeBg() {
+//     boxBg.style.backgroundColor = 'red';
+// }
+
+// boxBg.addEventListener('mouseover', changeBg);
