@@ -1,5 +1,9 @@
+body {
+    background-color: aliceblue;
+}
 #main-heading {
     color: aqua;
+    text-align: center;
 }
 
 .number {
@@ -8,4 +12,32 @@
 
 .list-items {
     color: red;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 250px;
+    height: 400px;
+    border-radius: 50px;
+    border: 3px solid black;
+}
+
+.btn-1, .btn-2, .btn-3 {
+    height: 40px;
+    width: 80px;
+    border: none;
+    border: 3px solid black;
+    border-radius: 50px;
+    background-color: #fff;
+    cursor: pointer;
 }

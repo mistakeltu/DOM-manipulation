@@ -57,13 +57,41 @@ console.clear();
 // let ul = document.querySelector('ul');
 
 // console.log(ul.parentNode);
-// console.log(ul.parentNode.parentNode);
-// console.log(ul.parentElement.parentElement);
+// console.log(ul.parentNode.parentNode); //du atgal
+// console.log(ul.parentElement);
 
 // const html = document.documentElement;
 
-// console.log(html.parentNode);
-// console.log(html.parentElement);
+// console.log(html.parentNode); //tevo node
+// console.log(html.parentElement); // atgal vienu
 
-let ul = document.querySelector('ul');
+// let ul = document.querySelector('ul');
 
+//------------------------> Child Node Traversal
+
+// let ul = document.querySelector('ul');
+
+// console.log(ul.childNodes); //atvaizduoja viska
+// console.log(ul.firstChild); //pirmas
+// console.log(ul.lastChild); //paskutinis
+
+// ul.childNodes[1].style.backgroundColor = 'blue'; //pasirenkam konkretu node, nes jei naudojam firstchild, tj neduos priskirt spalvos, nes pirmas elementas yra tekstas
+
+// let ul = document.querySelector('ul');
+
+// console.log(ul.children); // atvaizduoja elemento vaikus
+// console.log(ul.firstElementChild);
+// console.log(ul.lastElementChild);
+
+//Sibling Node Traversal
+
+// let ul = document.querySelector('ul');
+// const div = document.querySelector('div');
+
+// console.log(div.childNodes);
+
+// console.log(ul.previousSibling);
+// console.log(ul.nextSibling)
+
+// console.log(ul.previousElementSibling);
+// console.log(ul.nextElementSibling);
